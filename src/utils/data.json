@@ -1,0 +1,52 @@
+{
+    "usuarios": [
+        {
+            "nombre": "Mauricio Hezqueda",
+            "id": "1595146",
+            "teléfono": "4627754120",
+            "ciudad": "Irapuato",
+            "estado": "Guanajuato",
+            "activo": "no"
+        },
+ {
+            "nombre": "Hector Medrano",
+            "id": "1695147",
+            "teléfono": "462625489",
+            "ciudad": "Irapuato",
+            "estado": "Guanajuato",
+            "activo": "si"
+        },
+ {
+            "nombre": "Mario Alberto",
+            "id": "1795148",
+            "teléfono": "4626978410",
+            "ciudad": "Irapuato",
+            "estado": "Guanajuato",
+            "activo": "si"
+        },
+ {
+            "nombre": "Osvaldo Leon",
+            "id": "1995149",
+            "teléfono": "464546344",
+            "ciudad": "Irapuato",
+            "estado": "Guanajuato",
+            "activo": "si"
+        },
+ {
+            "nombre": "Alma Rosa",
+            "id": "2095150",
+            "teléfono": "429324444",
+            "ciudad": "Abasolo",
+            "estado": "Guanajuato",
+            "activo": "si"
+        },
+ {
+            "nombre": "Axel Ivan",
+            "id": "2195151",
+            "teléfono": "4621783196",
+            "ciudad": "Abasolo",
+            "estado": "Guanajuato",
+            "activo": "si"
+        }
+    ]
+}

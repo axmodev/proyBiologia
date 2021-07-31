@@ -1,0 +1,44 @@
+<app-header></app-header>
+
+<div class="row">
+
+  <div class="col-2">
+    <app-menu></app-menu>
+  </div>
+
+<div class="col-10">
+
+
+
+<div class="cotainer-fluid m-5">
+
+
+    <table class="table table-fluid">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Clave de usuario</th>
+            <th scope="col">Nombre completo</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Ciudad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let usuario of Usuarios; let i = index;">
+            <th scope="row">{{i +1 }}</th>
+            <td>{{usuario.id}}</td>
+            <td>{{usuario.nombre}}</td>
+            <td>{{usuario.telefono}}</td>
+            <td>{{usuario.estado}}</td>
+            <td>{{usuario.ciudad}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+</div>
+
+
+</div>
+</div>

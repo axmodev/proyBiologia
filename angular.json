@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "proyectoBiologia"
+    }
+  },
+  "defaultProject": "proyectoBiologia",
+  "cli": {
+    "analytics": "b8df0ed0-278b-4f96-b053-328c9f5a9d56"
+  }
 }

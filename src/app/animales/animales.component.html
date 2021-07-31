@@ -1,0 +1,53 @@
+<app-header></app-header>
+
+<div class="row">
+
+  <div class="col-2">
+    <app-menu></app-menu>
+  </div>
+
+<div class="col-10">
+
+
+
+
+
+<div class="container mt-5">
+  
+    <h1 class="text-center bg-success text-white mb-5">Lista de pokemones</h1>
+    <div class="text-center  d-none">
+        <button class="btn btn-success mb-4">Añadir animal</button>
+    </div>
+
+    <div *ngIf="cargando; else contenido" class="text-center pt-5 my-5">
+        <div class="text-center ">
+            <div class="spinner-border " role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+    
+    <ng-template #contenido>
+      
+        <div class="row">
+            <div class="col-lg-4 mb-3 text-center" *ngFor="let pokemones of pokemon;  index as i" ><div class="card" style="width: 18rem;">
+                <img class="card-img-top" [src]="pokemones" alt="Card image cap">
+                <div class="card-body">
+                  <h2 class="card-title text-center">{{nombrePokemon[i]}}</h2>
+             
+                </div>
+              </div>
+            </div>
+            
+        
+        </div>
+
+        
+    </ng-template>
+ 
+    
+    
+</div>
+
+</div>
+</div>

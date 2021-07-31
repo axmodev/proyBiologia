@@ -1,0 +1,38 @@
+<div class="text-center body">
+<form>
+    <img class="mb-4" src="../../assets/logo.png" alt="" >
+ 
+    <div class="form-floating">
+      <input type="email" [(ngModel)]="usuario"  name="usuario" class="form-control" id="floatingInput" placeholder="Usuario">
+
+    </div>
+    <br>
+    <div class="form-floating">
+      <input type="password"  [(ngModel)]="contrasenia"  name="contrasenia" class="form-control" id="floatingPassword" placeholder="Contraseña">
+   
+    </div>
+<br>
+
+<div *ngIf="cargando;"  class="text-center  mb-3">
+    <div class="text-center ">
+        <div class="spinner-border " role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+</div>
+
+
+<div *ngIf="error;"  class="text-center  mb-3">
+    <div class="text-center ">
+ 
+            <p class="text-danger">Credenciales invalidas</p>
+     
+    </div>
+</div>
+
+
+    <button class="w-100 btn btn-lg btn-primary" (click)="iniciarSesion()">Iniciar sesión</button>
+
+  </form>
+
+</div>
